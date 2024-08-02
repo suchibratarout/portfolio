@@ -12,10 +12,7 @@ function AboutCard() {
             from <span className="purple"> Bhadrak,Odisha, India.</span>
             <br /> I have completed my B-Tech in mechanical Engineering from 
             Gandhi Institute for Technological Advancement.
-            <br />
-            Now I am a fresher.
             
-            <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
@@ -30,7 +27,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Aim to create things that have a meaningful impact"{" "}
           </p>
           <footer className="blockquote-footer">Suchibrata</footer>
         </blockquote>

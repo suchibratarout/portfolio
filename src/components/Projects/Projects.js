@@ -4,7 +4,9 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import wheather from "../../Assets/Projects/wheather.png"
-import Book from "../../Assets/Projects/bookstore.png"
+import vendor from "../../Assets/Projects/vendor.png"
+import todo_list from "../../Assets/Projects/todo.png"
+
 
 
 function Projects() {
@@ -34,11 +36,21 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Book}
+              imgPath={vendor}
               isBlog={false}
-              title="Book Store"
-              description="A book store  where we can buy books. This app made using Python,Django and Javascript.  "
-              ghLink="https://github.com/suchibratarout/Ecomm"
+              title="Vendor"
+              description="It is a vendor management project where i use Python,Django,Javascript,Sql,DRF,REST Api.  "
+              ghLink="https://github.com/suchibratarout/vendor_management"
+              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={todo_list}
+              isBlog={false}
+              title="todo_list"
+              description=" "
+              ghLink="https://github.com/suchibratahttps://github.com/suchibratarout/todo-app-reactrout/vendor_management"
               
             />
           </Col>
